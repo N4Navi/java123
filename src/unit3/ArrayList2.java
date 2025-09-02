@@ -20,5 +20,9 @@ public class ArrayList2 {
         while(itr.hasNext()){
             System.out.println(itr.next());
         }
+        products.add(1,"Apple");
+        products.addLast("Banana");
+        products.addFirst("Orange");
+        System.out.println(products.get(1));
     }
 }
